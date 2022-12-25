@@ -3,13 +3,16 @@
 @import "config/variables.scss";
 
 @import "utilites/apacing.scss";
+@import "utilites/mixin-card.scss";
 
 @import "base/fonts.scss";
 @import "base/global.scss";
 @import "base/links.scss";
 @import "base/typography.scss";
 
-$background-color: red;
-body {
-    background-color: $background-color;
-}
+
+@import "components/components";
+@import "components/demo.scss";
+
+
+$background-color: silver;
